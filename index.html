@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Title Math: what every F1 driver needs in the 2026 championship</title>
+<meta name="description" content="Pick a driver and see exactly what he needs: the points gap, who is still alive for the 2026 title, when it can be decided, and a race-by-race scenario builder you can share.">
+<link rel="canonical" href="https://phazww.github.io/title-math/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Title Math: what every F1 driver needs in the 2026 championship">
+<meta property="og:description" content="The points gap, who is still alive, when the title can be decided, and a race-by-race scenario builder you can share.">
+<meta property="og:url" content="https://phazww.github.io/title-math/">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<header class="site">
+  <a class="brand" href="./">Title <b>Math</b></a>
+  <div class="stamp" id="stamp"></div>
+</header>
+
+<main>
+<div class="hero">
+  <h1 id="headline">What does your driver need?</h1>
+  <p class="lede" id="lede"></p>
+</div>
+
+<section id="need">
+  <div class="chips" id="chips"></div>
+  <div class="card" id="card"></div>
+</section>
+
+<section id="clinch">
+  <h2 id="clinch-title">When can it be over?</h2>
+  <p class="sub" id="clinch-sub"></p>
+  <div class="tablewrap"><table id="clinch-table"></table></div>
+  <p class="msg out" id="clinch-example"></p>
+</section>
+
+<section id="sim">
+  <h2>Build a scenario</h2>
+  <p class="sub">Set finishing positions for the races that are left and watch the table move. A dash means no points. The link at the bottom keeps your scenario, so you can send it to a friend.</p>
+  <div class="tablewrap"><table id="sim-table"></table></div>
+  <p class="msg" id="sim-msg"></p>
+  <div class="row">
+    <button class="btn primary" id="share">Copy link to this scenario</button>
+    <button class="btn" id="reset">Clear all</button>
+  </div>
+  <h3>Final standings in this scenario</h3>
+  <div class="tablewrap"><table id="proj-table"></table></div>
+</section>
+
+<section id="alive">
+  <h2>Who is still alive</h2>
+  <p class="sub" id="alive-sub"></p>
+  <div class="tablewrap"><table id="alive-table"></table></div>
+</section>
+</main>
+
+<footer class="site">
+  <p id="foot-data"></p>
+  <p>Ties on points are decided by number of wins, then second places and so on. This page only compares wins, and the win counts come from a single source, so treat tie-breaks as provisional.</p>
+  <p>Unofficial fan project. Not affiliated with Formula 1, the FIA or any team. Made by <a href="https://x.com/phaz_dev" rel="noopener">@phaz_dev</a>. Visits are counted with GoatCounter, without cookies.</p>
+</footer>
+</div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+<script data-goatcounter="https://phaz.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

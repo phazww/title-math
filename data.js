@@ -1,15 +1,9 @@
 // 2026 season data, written by update.py from the Jolpica F1 API. Do not edit by hand, run: python3 update.py
-window.UPDATED = "2026-10-14";
-window.AFTER = "Singapore Grand Prix (round 17 of 23)";
+window.UPDATED = "2026-10-30";
+window.AFTER = "United States Grand Prix (round 18 of 23)";
 window.POINTS = [25, 18, 15, 12, 10, 8, 6, 4, 2, 1];
 // No sprint weekends remain, so each race is worth 25 points at most.
 window.RACES = [
-  {
-    "code": "USA",
-    "name": "United States",
-    "place": "Austin",
-    "date": "25 Oct"
-  },
   {
     "code": "MEX",
     "name": "Mexico City",
@@ -48,15 +42,15 @@ window.DRIVERS = [
     "name": "Andrea Kimi Antonelli",
     "team": "Mercedes",
     "color": "#27F4D2",
-    "pts": 340,
-    "wins": 8
+    "pts": 365,
+    "wins": 9
   },
   {
     "code": "RUS",
     "name": "George Russell",
     "team": "Mercedes",
     "color": "#27F4D2",
-    "pts": 238,
+    "pts": 242,
     "wins": 3
   },
   {
@@ -64,7 +58,7 @@ window.DRIVERS = [
     "name": "Lewis Hamilton",
     "team": "Ferrari",
     "color": "#E8002D",
-    "pts": 229,
+    "pts": 241,
     "wins": 1
   },
   {
@@ -72,7 +66,7 @@ window.DRIVERS = [
     "name": "Max Verstappen",
     "team": "Red Bull",
     "color": "#3671C6",
-    "pts": 221,
+    "pts": 236,
     "wins": 2
   },
   {
@@ -80,7 +74,7 @@ window.DRIVERS = [
     "name": "Charles Leclerc",
     "team": "Ferrari",
     "color": "#E8002D",
-    "pts": 215,
+    "pts": 233,
     "wins": 1
   },
   {
@@ -88,7 +82,7 @@ window.DRIVERS = [
     "name": "Lando Norris",
     "team": "McLaren",
     "color": "#FF8000",
-    "pts": 201,
+    "pts": 211,
     "wins": 2
   },
   {
@@ -96,7 +90,7 @@ window.DRIVERS = [
     "name": "Oscar Piastri",
     "team": "McLaren",
     "color": "#FF8000",
-    "pts": 138,
+    "pts": 144,
     "wins": 0
   },
   {
@@ -104,7 +98,7 @@ window.DRIVERS = [
     "name": "Isack Hadjar",
     "team": "Red Bull",
     "color": "#3671C6",
-    "pts": 97,
+    "pts": 105,
     "wins": 0
   },
   {
@@ -112,7 +106,7 @@ window.DRIVERS = [
     "name": "Liam Lawson",
     "team": "Red Bull",
     "color": "#3671C6",
-    "pts": 75,
+    "pts": 77,
     "wins": 0
   },
   {
@@ -120,7 +114,7 @@ window.DRIVERS = [
     "name": "Pierre Gasly",
     "team": "Alpine",
     "color": "#FF87BC",
-    "pts": 41,
+    "pts": 42,
     "wins": 0
   },
   {
